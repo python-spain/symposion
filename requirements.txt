@@ -28,3 +28,5 @@ markdown==2.2.0
 django-sitetree==0.9.1
 PIL==1.1.7
 easy-thumbnails==1.1
+dj-database-url==0.2.1
+psycopg2

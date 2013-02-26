@@ -15,7 +15,7 @@ WIKI_SLUG = r"(([\w-]{2,})(/[\w-]{2,})*)"
 
 urlpatterns = patterns("",
     url(r"^$", direct_to_template, {
-        "template": "homepage.html",
+        "template": "comingsoon.html",#"homepage.html",
     }, name="home"),
     url(r"^admin/", include(admin.site.urls)),
     

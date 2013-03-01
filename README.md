@@ -11,3 +11,12 @@ See http://eldarion.com/symposion/ for commercial support, customization and hos
 - `pip install -r requirements.txt`
 - `python manage.py syncdb`
 - `python manage.py loaddata fixtures/*`
+
+## Setup Heroku remote
+
+- `heroku login`
+- `heroku git:remote --app pycones`
+
+## Deploy
+
+- `git push heroku master`
